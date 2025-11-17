@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daxish Prajapati | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+/* Global Styles */
+* {margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif;}
+body {background:#f3f4f6; color:#1f2937; line-height:1.6; scroll-behavior:smooth;}
+a {text-decoration:none;}
+h2 {font-size:1.8rem; color:#1d4ed8; margin-bottom:1rem; border-left:4px solid #2563eb; padding-left:0.5rem;}
+h3 {color:#1e40af; margin-bottom:0.5rem;}
+ul {margin-left:1.2rem; list-style: disc;}
+li {margin-bottom:0.5rem;}
+section {padding:4rem 1rem; scroll-margin-top:70px; border-radius:1rem; margin-bottom:2rem;}
+
+/* Navbar */
+nav {position:fixed; top:0; left:0; width:100%; background:#1e3a8a; padding:1rem 2rem; z-index:1000; display:flex; justify-content:space-between; align-items:center; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+nav h1 {color:#fff; font-size:1.5rem;}
+nav ul {list-style:none; display:flex; gap:1rem;}
+nav ul li a {color:#fff; font-weight:600; padding:5px 10px; border-radius:5px; transition:0.3s;}
+nav ul li a.active, nav ul li a:hover {background:#2563eb; color:#fff;}
+
+/* Header */
+header {text-align:center; background:#3c4e7a; color:#fff; padding:8rem 1rem 2rem 1rem; margin-bottom:2rem; border-radius:1rem; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+header p {color:#e0e7ff; margin:0.5rem 0;}
+button.download-btn {padding:0.7rem 1.5rem; border:none; background:#fbbf24; color:#1f2937; border-radius:0.5rem; cursor:pointer; margin-top:1rem; font-weight:600; transition:0.3s;}
+button.download-btn:hover {background:#f59e0b; color:#fff;}
+
+/* Skills */
+.skills span {display:inline-block; background:#ffffff; color:#0369a1; padding:8px 15px; border-radius:20px; margin:5px; font-size:0.9rem; font-weight:500; transition:0.3s;}
+.skills span:hover {background:#bae6fd;}
+
+/* Experience & Projects */
+.work-grid {display:grid; grid-template-columns:repeat(auto-fit, minmax(300px,1fr)); gap:1.5rem;}
+.work-card {background:#f1f5f9; padding:1rem; border-radius:1rem; box-shadow:0 4px 8px rgba(0,0,0,0.08); transition:0.3s; cursor:pointer;}
+.work-card:hover {transform:translateY(-5px); box-shadow:0 6px 12px rgba(0,0,0,0.12);}
+
+/* Sections */
+#about {background:#cfecff;}
+#skills {background:#cfecff;}
+#experience {background:#cfecff;}
+#projects {background:#cfecff;}
+#education {background:#cfecff;}
+#contact {background:#cfecff ;}
+
+/* Footer */
+.footer {text-align:center; padding:2rem 1rem; color:#64748b; font-size:0.9rem; background:#1e293b; color:#fff;}
+
+/* Responsive */
+@media(max-width:768px){
+  nav ul {flex-direction:column; background:#1e3a8a; position:absolute; top:60px; right:0; width:200px; display:none; padding:1rem; border-radius:0 0 0 10px;}
+  nav ul.show {display:flex;}
+  nav ul li {margin-bottom:10px;}
+  nav button.toggle {display:block; background:none; border:none; color:#fff; font-size:1.5rem; cursor:pointer;}
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h1>Daxish Prajapati</h1>
+  
+  <ul id="navbar">
+    <li><a href="#about" class="nav-link active">About</a></li>
+    <li><a href="#skills" class="nav-link">Skills</a></li>
+    <li><a href="#experience" class="nav-link">Experience</a></li>
+    <li><a href="#projects" class="nav-link">Projects</a></li>
+    <li><a href="#education" class="nav-link">Education</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Header -->
+<header>
+  <p>Web Developer • Graphic Designer • Recruiter • Data Analysis</p>
+  <p>Email: <a href="mailto:prajapatidaxish007@gmail.com" style="color:white;">prajapatidaxish007@gmail.com</a> | Phone: +91 75738 02530 | Visnagar, Gujarat</p>
+  <p>Open To Relocate</p>
+  <a href="./Daxish Prajapati.pdf" download><button class="download-btn">Download Resume</button></a>
+</header>
+
+<main class="container">
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Web Developer & Graphic Designer with hands-on experience in React JS, PHP, MySQL, Bootstrap, HTML, and CSS. I also have experience in recruitment and data analysis, managing candidates and coordinating with companies. I build responsive, user-friendly applications and visually appealing designs, combining creativity and technical precision. Motivated and detail-oriented, I am eager to contribute to innovative projects.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>React JS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+      <span>HTML/CSS</span><span>Bootstrap</span>
+      <span>CorelDRAW</span><span>Digital Marketing</span>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <h3>Recruiter | Net Bounce Placement, Visnagar (Jul 2025 – Present)</h3>
+    <ul>
+      <li>Managed applications across LinkedIn, Glassdoor, Indeed, JobRights.</li>
+      <li>Handled candidate emails, interview scheduling, and follow-ups.</li>
+      <li>Coordinated between candidates and companies for smooth hiring.</li>
+      <li>Tracked multiple candidates and resolved issues during the recruitment process.</li>
+    </ul>
+    <h3>React JS Intern | Sparks to Ideas, Ahmedabad (Jan 2025 – Jul 2025)</h3>
+    <ul>
+      <li>Developed responsive applications using React JS, Bootstrap, and JavaScript.</li>
+      <li>Integrated Razorpay and JWT-based authentication.</li>
+      <li>Optimized UI performance and cross-browser compatibility.</li>
+    </ul>
+    <h3>Graphic Designer & Digital Marketing Executive | Velox Group, Visnagar (Jul 2020 – Aug 2021)</h3>
+    <ul>
+      <li>Designed logos, posters, banners, brochures, and digital creatives using CorelDRAW.</li>
+      <li>Managed social media campaigns on Facebook and Instagram.</li>
+      <li>Delivered creative outputs for print and digital platforms within deadlines.</li>
+      <li>View my design portfolio: <a href="https://drive.google.com/drive/folders/1-wAFhr6Tb8jep8uUEUQ_tbO4uvLHPd3l?usp=drive_link" target="_blank">Google Drive Link</a></li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects & Work</h2>
+    <div class="work-grid">
+      <div class="work-card">
+        <h4>Event Management App</h4>
+        <p>Technologies: React JS, Bootstrap, HTML, CSS, JavaScript</p>
+        <ul>
+          <li>Developed a full-stack web application for browsing events and booking tickets online.</li>
+          <li>Implemented user registration/login with JWT authentication and an admin panel for managing events.</li>
+          <li>Integrated Razorpay for secure payment processing.</li>
+          <li>Designed a responsive interface for desktop and mobile devices.</li>
+        </ul>
+      </div>
+      <div class="work-card">
+        <h4>Mechanix Platform</h4>
+        <p>Technologies: PHP, MySQL, Google Maps API, Bootstrap, HTML, CSS</p>
+        <ul>
+          <li>Developed on-demand mechanic service platform with real-time tracking.</li>
+          <li>Integrated Google Maps API for live mechanic location.</li>
+          <li>Created dynamic request-response system matching users with mechanics.</li>
+          <li>Managed backend using PHP and MySQL for user data and services.</li>
+        </ul>
+      </div>
+      <div class="work-card">
+        <h4>Rent & Ride App</h4>
+        <p>Technologies: PHP, MySQL, HTML, CSS, JavaScript</p>
+        <ul>
+          <li>Developed vehicle booking platform similar to Ola/Uber.</li>
+          <li>Implemented secure user registration/login system with booking history.</li>
+          <li>Integrated fare calculation and automated payment processing.</li>
+          <li>Built admin panel to manage vehicle availability, bookings, and updates.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>Master of Computer Application (MCA)</strong> – Hemchandracharya North Gujarat University, Patan (May 2025)</p>
+    <p><strong>Bachelor of Computer Application (BCA)</strong> – Sankalchand Patel University, Visnagar (May 2022)</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:prajapatidaxish007@gmail.com">prajapatidaxish007@gmail.com</a></p>
+    <p>Phone: +91 75738 02530</p>
+    <p>Location: Visnagar, Gujarat</p>
+  </section>
+</main>
+
+<footer class="footer">
+  © 2025 Daxish Prajapati — Portfolio
+</footer>
+
+<script>
+// Toggle mobile menu
+function toggleMenu() {
+  document.getElementById('navbar').classList.toggle('show');
+}
+
+// Highlight active navbar link on scroll
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-link');
+
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 80;
+    if(pageYOffset >= sectionTop) current = section.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if(link.getAttribute('href') === '#'+current) link.classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>
